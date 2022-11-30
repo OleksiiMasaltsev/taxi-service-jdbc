@@ -36,12 +36,11 @@
             <artifactId>jstl</artifactId>
             <version>1.2</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.heroku/webapp-runner -->
-<!--        <dependency>-->
-<!--            <groupId>com.heroku</groupId>-->
-<!--            <artifactId>webapp-runner</artifactId>-->
-<!--            <version>9.0.68.1</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.heroku</groupId>
+            <artifactId>webapp-runner</artifactId>
+            <version>9.0.68.1</version>
+        </dependency>
 
     </dependencies>
 
