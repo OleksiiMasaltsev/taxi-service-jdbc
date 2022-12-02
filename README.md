@@ -9,14 +9,16 @@ Here you can create your driver account
 - create, update and remove cars, manufacturers and drivers,
 - display lists of cars, drivers or manufacturers.
 
-Structure of the project is based on N-tier architecture:
+### Structure of the project is based on N-tier architecture:
 - DAO layer - database
 - Service layer - business logic
 - Controllers - accept requests and send responses
 - Views - presentation layer
 
-Technologies used in the project:
-- Java
+![](C:\dev\MA\taxi-service-jdbc\taxi_models_diagram_mini.jpg)
+
+### Technologies used in the project:
+- Java 11
 - JDBC
 - MySQL
 - Tomcat
@@ -25,7 +27,7 @@ Technologies used in the project:
 - JSP
 - Dependency injection
 
-Instructions:
+### Instructions:
 - get source code or fork from GitHub
 - configure util/ConnectionUtil.java with your database parameters (jdbc driver, url, username, password).
 - create DB schema with resources/init_db.sql file
