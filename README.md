@@ -10,6 +10,8 @@ Functionality:
 - connection between cars and drivers
 - display lists of cars, drivers or manufacturers
 
+![](index_page.jpg)
+
 ### Structure of the project:
 - DAO layer - persistence layer that communicates with DB 
 - Service layer - business logic
@@ -20,10 +22,10 @@ Functionality:
 
 ### Technologies used in the project:
 - Java 11
-- MySQL
-- Tomcat
-- Maven
-- HTML+CSS
+- MySQL 8.0
+- Tomcat 9.0.50
+- Maven 3.6.3
+- HTML+CSS 
 - JSP
 - Dependency injection
 
