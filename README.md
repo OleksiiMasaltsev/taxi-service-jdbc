@@ -3,29 +3,33 @@
 This is a java demo project mocking the work 
 of taxi and driver control system.
 
-Here you can create your driver account 
-- on registration page and connect it to the cars,
-- use login/logout pages,
-- create, update and remove cars, manufacturers and drivers,
-- display lists of cars, drivers or manufacturers.
+Functionality: 
+- registration of a new driver/user
+- login/logout of previously created drivers/users
+- creating, updating or deleting manufacturers, cars or drivers on jsp pages
+- connection between cars and drivers
+- display lists of cars, drivers or manufacturers
 
-Structure of the project is based on N-tier architecture:
-- DAO layer - database
+![](index_page.jpg)
+
+### Structure of the project:
+- DAO layer - persistence layer that communicates with DB 
 - Service layer - business logic
 - Controllers - accept requests and send responses
 - Views - presentation layer
 
-Technologies used in the project:
-- Java
-- JDBC
-- MySQL
-- Tomcat
-- Maven
-- HTML+CSS
+![](taxi_models_diagram_mini.jpg)
+
+### Technologies used in the project:
+- Java 11
+- MySQL 8.0
+- Tomcat 9.0.50
+- Maven 3.6.3
+- HTML+CSS 
 - JSP
 - Dependency injection
 
-Instructions:
+### Instructions:
 - get source code or fork from GitHub
 - configure util/ConnectionUtil.java with your database parameters (jdbc driver, url, username, password).
 - create DB schema with resources/init_db.sql file
