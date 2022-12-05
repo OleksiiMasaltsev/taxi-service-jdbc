@@ -23,6 +23,6 @@
     <tr><td><a href="${pageContext.request.contextPath}/cars/drivers/add">Add Driver to Car</a></td></tr>
 </table>
 <br>
-<%@include file="header.jsp"%>
+<%@include file="footer.jsp"%>
 </body>
 </html>

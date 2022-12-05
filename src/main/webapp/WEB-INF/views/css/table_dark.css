@@ -2,10 +2,10 @@
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     width: 70%;
     color: #7C5FAB;
-    font-size: 40px;
+    font-size: 18px;
     text-align: center;
     border-collapse: collapse;
-    background: #FEF4AB;
+    background: #e3d526;
     margin: auto;
 }
 .table_dark th {

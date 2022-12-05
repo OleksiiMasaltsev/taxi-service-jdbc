@@ -12,6 +12,8 @@ of taxi and driver control system._
 
 ![](index_page.jpg)
 
+![](add_new_driver.jpg)
+
 ### Structure of the project:
 - DAO layer - persistence layer that communicates with DB 
 - Service layer - business logic
