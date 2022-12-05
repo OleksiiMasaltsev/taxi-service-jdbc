@@ -32,6 +32,7 @@ of taxi and driver control system.**
 - Dependency injection
 
 #### Instructions:
+- install Java 11+, MySQL 8.0 and Tomcat 9
 - get source code or fork from GitHub
 - configure [ConnectionUtil](src/main/java/taxi/util/ConnectionUtil.java) with your database parameters (jdbc driver, url, username, password).
 - create DB schema with [init_db.sql](src/main/resources/init_db.sql) file
