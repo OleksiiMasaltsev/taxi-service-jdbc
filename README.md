@@ -12,7 +12,7 @@ of taxi and driver control system.**
 
 ![](index_page.jpg)
 
-![](add_new_driver.jpg)
+![](add_driver.jpg)
 
 #### Structure of the project:
 - DAO layer - persistence layer that communicates with DB 
@@ -20,7 +20,7 @@ of taxi and driver control system.**
 - Controllers - accept requests and send responses
 - Views - presentation layer
 
-![](taxi_models_diagram_mini.jpg)
+![](taxi_models_diagram.jpg)
 
 #### Technologies used in the project:
 - Java 11
