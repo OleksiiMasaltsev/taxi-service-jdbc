@@ -7,6 +7,6 @@
     <title>Header</title>
 </head>
 <body>
-  <a href="${pageContext.request.contextPath}/logout"><h4>Logout</h4></a>
+  <a href="${pageContext.request.contextPath}/index"><h4 class="table_dark">Home</h4></a>
 </body>
 </html>
